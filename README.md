@@ -37,9 +37,9 @@ Activate on a text (e.g. from the clipboard history). Activate this action and s
 
 The two python scripts alf_to_esp.py and esp_to_alf.py can be used directly in command line:
 
-<code>python3 esp_to_alf.py [-h] [--icon ICON] yaml_file</code>
+<code>python3 esp_to_alf.py [-h] [--icon ICON] espanso_file.yml</code>
 
-<code>python3 alf_to_esp.py [-h] alfredsnippet_file</code>
+<code>python3 alf_to_esp.py [-h] alfredsnippet_file.alfredsnippets</code>
 
 
 ## Acknowledgement
