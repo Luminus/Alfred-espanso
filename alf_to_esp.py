@@ -59,8 +59,8 @@ def convert_json_to_yaml(input_file, output_file):
                     if snippet_data:
                         # Transform the data
                         match = {
-                            'replace': snippet_data.get("snippet").strip(),
                             "trigger": prefix + snippet_data.get("keyword").strip() + suffix,
+                            'replace': snippet_data.get("snippet").strip(),
                             "label": snippet_data.get("name")
                         }
                         matches.append(match)
